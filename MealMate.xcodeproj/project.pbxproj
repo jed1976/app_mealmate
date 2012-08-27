@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		280E754E0DD40C5E005A515E /* RootView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 280E754B0DD40C5E005A515E /* RootView.xib */; };
+		280E754F0DD40C5E005A515E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 280E754C0DD40C5E005A515E /* MainWindow.xib */; };
+		288765590DF743DE002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765580DF743DE002DB57D /* CoreGraphics.framework */; };
+		289233AE0DB2D0DB0083E9F9 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233A90DB2D0DB0083E9F9 /* RootViewController.m */; };
+		4D0383671327D8C10011E55B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0383661327D8C10011E55B /* Default.png */; };
+		4D0576941324188B00A52AB8 /* picker-background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0576931324188B00A52AB8 /* picker-background@2x.png */; };
+		4D05769D13241D7C00A52AB8 /* display@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D05769B13241D7C00A52AB8 /* display@2x.png */; };
+		4D05769E13241D7C00A52AB8 /* overlay-portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D05769C13241D7C00A52AB8 /* overlay-portrait@2x.png */; };
+		4D0577941324340900A52AB8 /* beep-down.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4D0577931324340900A52AB8 /* beep-down.caf */; };
+		4D0577F213243B8A00A52AB8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0577F113243B8A00A52AB8 /* AVFoundation.framework */; };
+		4D05782413243E3F00A52AB8 /* beep-up.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4D05782313243E3F00A52AB8 /* beep-up.caf */; };
+		4D05783C132440B300A52AB8 /* reset.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4D05783B132440B300A52AB8 /* reset.caf */; };
+		4D2F05B913254E740096E1B6 /* overlay-landscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D2F05B813254E740096E1B6 /* overlay-landscape@2x.png */; };
+		4D2F093E132580BD0096E1B6 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2F093C132580BD0096E1B6 /* SettingsViewController.m */; };
+		4D2F093F132580BD0096E1B6 /* SettingsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D2F093D132580BD0096E1B6 /* SettingsView.xib */; };
+		4D86DF661323E41700F9F6C5 /* overlay-portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D86DF651323E41700F9F6C5 /* overlay-portrait.png */; };
+		4D86DFFB1323EFBE00F9F6C5 /* picker-background.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D86DFFA1323EFBE00F9F6C5 /* picker-background.png */; };
+		4D86E0701323F6E500F9F6C5 /* display.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D86E06F1323F6E500F9F6C5 /* display.png */; };
+		4D86E0891323FB1000F9F6C5 /* display.html in Resources */ = {isa = PBXBuildFile; fileRef = 4D86E0881323FB1000F9F6C5 /* display.html */; };
+		4D86E0A51323FCCE00F9F6C5 /* LcdStd.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4D86E0A41323FCCE00F9F6C5 /* LcdStd.otf */; };
+		4D86E14A1324124500F9F6C5 /* Icon-58.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D86E1441324124500F9F6C5 /* Icon-58.png */; };
+		4D86E14B1324124500F9F6C5 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D86E1451324124500F9F6C5 /* Icon-72.png */; };
+		4D86E14C1324124500F9F6C5 /* Icon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D86E1461324124500F9F6C5 /* Icon-114.png */; };
+		4D86E14D1324124500F9F6C5 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D86E1471324124500F9F6C5 /* Icon-Small-50.png */; };
+		4D86E14E1324124500F9F6C5 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D86E1481324124500F9F6C5 /* Icon-Small.png */; };
+		4D86E14F1324124500F9F6C5 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D86E1491324124500F9F6C5 /* Icon.png */; };
+		4DA99C201327034E00FCFC49 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA99C1F1327034E00FCFC49 /* ViewController.m */; };
+		4DB1CCF913259EE0007107D4 /* settings-background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DB1CCF813259EE0007107D4 /* settings-background@2x.png */; };
+		4DB1CD661325A9A0007107D4 /* overlay-landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DB1CD651325A9A0007107D4 /* overlay-landscape.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		280E754B0DD40C5E005A515E /* RootView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootView.xib; sourceTree = "<group>"; };
+		280E754C0DD40C5E005A515E /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		288765580DF743DE002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		289233A80DB2D0DB0083E9F9 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		289233A90DB2D0DB0083E9F9 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		4D0383661327D8C10011E55B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		4D0576931324188B00A52AB8 /* picker-background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "picker-background@2x.png"; sourceTree = "<group>"; };
+		4D05769B13241D7C00A52AB8 /* display@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "display@2x.png"; sourceTree = "<group>"; };
+		4D05769C13241D7C00A52AB8 /* overlay-portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "overlay-portrait@2x.png"; sourceTree = "<group>"; };
+		4D0577931324340900A52AB8 /* beep-down.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "beep-down.caf"; sourceTree = "<group>"; };
+		4D0577F113243B8A00A52AB8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4D05782313243E3F00A52AB8 /* beep-up.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "beep-up.caf"; sourceTree = "<group>"; };
+		4D05783B132440B300A52AB8 /* reset.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = reset.caf; sourceTree = "<group>"; };
+		4D2F05B813254E740096E1B6 /* overlay-landscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "overlay-landscape@2x.png"; sourceTree = "<group>"; };
+		4D2F093B132580BD0096E1B6 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		4D2F093C132580BD0096E1B6 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		4D2F093D132580BD0096E1B6 /* SettingsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SettingsView.xib; path = Classes/SettingsView.xib; sourceTree = "<group>"; };
+		4D7AF9101334DE1400AA7785 /* MealMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MealMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D86DF651323E41700F9F6C5 /* overlay-portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "overlay-portrait.png"; sourceTree = "<group>"; };
+		4D86DFFA1323EFBE00F9F6C5 /* picker-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "picker-background.png"; sourceTree = "<group>"; };
+		4D86E06F1323F6E500F9F6C5 /* display.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = display.png; sourceTree = "<group>"; };
+		4D86E0881323FB1000F9F6C5 /* display.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = display.html; sourceTree = "<group>"; };
+		4D86E0A41323FCCE00F9F6C5 /* LcdStd.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LcdStd.otf; sourceTree = "<group>"; };
+		4D86E1441324124500F9F6C5 /* Icon-58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-58.png"; sourceTree = "<group>"; };
+		4D86E1451324124500F9F6C5 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		4D86E1461324124500F9F6C5 /* Icon-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-114.png"; sourceTree = "<group>"; };
+		4D86E1471324124500F9F6C5 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		4D86E1481324124500F9F6C5 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		4D86E1491324124500F9F6C5 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		4DA99C1E1327034E00FCFC49 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4DA99C1F1327034E00FCFC49 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4DB1CCF813259EE0007107D4 /* settings-background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings-background@2x.png"; sourceTree = "<group>"; };
+		4DB1CD651325A9A0007107D4 /* overlay-landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "overlay-landscape.png"; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765590DF743DE002DB57D /* CoreGraphics.framework in Frameworks */,
+				4D0577F213243B8A00A52AB8 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* AppDelegate.h */,
+				1D3623250D0F684500981E51 /* AppDelegate.m */,
+				289233A80DB2D0DB0083E9F9 /* RootViewController.h */,
+				289233A90DB2D0DB0083E9F9 /* RootViewController.m */,
+				4D2F093B132580BD0096E1B6 /* SettingsViewController.h */,
+				4D2F093C132580BD0096E1B6 /* SettingsViewController.m */,
+				4DA99C1E1327034E00FCFC49 /* ViewController.h */,
+				4DA99C1F1327034E00FCFC49 /* ViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D7AF9101334DE1400AA7785 /* MealMate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4D0577931324340900A52AB8 /* beep-down.caf */,
+				4D05782313243E3F00A52AB8 /* beep-up.caf */,
+				4D05783B132440B300A52AB8 /* reset.caf */,
+				4D0383661327D8C10011E55B /* Default.png */,
+				4D86E06F1323F6E500F9F6C5 /* display.png */,
+				4D05769B13241D7C00A52AB8 /* display@2x.png */,
+				4D86E1441324124500F9F6C5 /* Icon-58.png */,
+				4D86E1451324124500F9F6C5 /* Icon-72.png */,
+				4D86E1461324124500F9F6C5 /* Icon-114.png */,
+				4D86E1471324124500F9F6C5 /* Icon-Small-50.png */,
+				4D86E1481324124500F9F6C5 /* Icon-Small.png */,
+				4D86E1491324124500F9F6C5 /* Icon.png */,
+				4DB1CD651325A9A0007107D4 /* overlay-landscape.png */,
+				4D2F05B813254E740096E1B6 /* overlay-landscape@2x.png */,
+				4D86DF651323E41700F9F6C5 /* overlay-portrait.png */,
+				4D05769C13241D7C00A52AB8 /* overlay-portrait@2x.png */,
+				4D86DFFA1323EFBE00F9F6C5 /* picker-background.png */,
+				4D0576931324188B00A52AB8 /* picker-background@2x.png */,
+				4DB1CCF813259EE0007107D4 /* settings-background@2x.png */,
+				4D86E0A41323FCCE00F9F6C5 /* LcdStd.otf */,
+				280E754B0DD40C5E005A515E /* RootView.xib */,
+				4D2F093D132580BD0096E1B6 /* SettingsView.xib */,
+				280E754C0DD40C5E005A515E /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				4D86E0881323FB1000F9F6C5 /* display.html */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765580DF743DE002DB57D /* CoreGraphics.framework */,
+				4D0577F113243B8A00A52AB8 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* MealMate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "MealMate" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MealMate;
+			productName = "food-sum";
+			productReference = 4D7AF9101334DE1400AA7785 /* MealMate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MealMate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* MealMate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280E754E0DD40C5E005A515E /* RootView.xib in Resources */,
+				280E754F0DD40C5E005A515E /* MainWindow.xib in Resources */,
+				4D86DF661323E41700F9F6C5 /* overlay-portrait.png in Resources */,
+				4D86DFFB1323EFBE00F9F6C5 /* picker-background.png in Resources */,
+				4D86E0701323F6E500F9F6C5 /* display.png in Resources */,
+				4D86E0891323FB1000F9F6C5 /* display.html in Resources */,
+				4D86E0A51323FCCE00F9F6C5 /* LcdStd.otf in Resources */,
+				4D86E14A1324124500F9F6C5 /* Icon-58.png in Resources */,
+				4D86E14B1324124500F9F6C5 /* Icon-72.png in Resources */,
+				4D86E14C1324124500F9F6C5 /* Icon-114.png in Resources */,
+				4D86E14D1324124500F9F6C5 /* Icon-Small-50.png in Resources */,
+				4D86E14E1324124500F9F6C5 /* Icon-Small.png in Resources */,
+				4D86E14F1324124500F9F6C5 /* Icon.png in Resources */,
+				4D0576941324188B00A52AB8 /* picker-background@2x.png in Resources */,
+				4D05769D13241D7C00A52AB8 /* display@2x.png in Resources */,
+				4D05769E13241D7C00A52AB8 /* overlay-portrait@2x.png in Resources */,
+				4D0577941324340900A52AB8 /* beep-down.caf in Resources */,
+				4D05782413243E3F00A52AB8 /* beep-up.caf in Resources */,
+				4D05783C132440B300A52AB8 /* reset.caf in Resources */,
+				4D2F05B913254E740096E1B6 /* overlay-landscape@2x.png in Resources */,
+				4D2F093F132580BD0096E1B6 /* SettingsView.xib in Resources */,
+				4DB1CCF913259EE0007107D4 /* settings-background@2x.png in Resources */,
+				4DB1CD661325A9A0007107D4 /* overlay-landscape.png in Resources */,
+				4D0383671327D8C10011E55B /* Default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
+				289233AE0DB2D0DB0083E9F9 /* RootViewController.m in Sources */,
+				4D2F093E132580BD0096E1B6 /* SettingsViewController.m in Sources */,
+				4DA99C201327034E00FCFC49 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = MealMate;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = MealMate;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Joseph Dakroub (E2G8Z48F2E)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Joseph Dakroub (E2G8Z48F2E)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PROVISIONING_PROFILE = "D257500C-DB79-499D-9665-8DC13D754DE2";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D257500C-DB79-499D-9665-8DC13D754DE2";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Teacup Studio, LLC";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Teacup Studio, LLC";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "7707C86B-BAD2-4768-8E6B-0117CA6393CD";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7707C86B-BAD2-4768-8E6B-0117CA6393CD";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "MealMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MealMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

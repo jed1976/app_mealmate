@@ -1,0 +1,27 @@
+Greetings, my name is Joe Dakroub. I run a small mobile dev company called Teacup Studio (www.teacupstudio.com).
+
+Last night, my app MealMate, went live on the iPhone App Store.
+
+MealMate is a simple WeightWatchers points calculator designed to remove the hassle of inputting values. Rather than using text fields like all the other apps out there, MealMate uses a picker that lets you choose values with the flick of your finger. In an instant, you see the point values without having to hit a Calculate button. This reduces errors and makes it easier to hold in one hand while at the grocery store, in a restaurant, or at home.
+
+The app supports portrait and landscape modes, with servings sizes available in landscape mode. In addition, MealMate supports orientation locking and both the US and UK points systems.
+
+MealMate makes calculating food points effortless, intuitive, and fun!
+
+Here is the marketing text:
+
+With the flick of a finger, you can quickly measure the fat, carbohydrates, fiber, and protein content in your food. 
+
+Easily assign serving sizes when in landscape mode. You can also lock the orientation to stay in landscape or portrait. 
+
+Want to start over? Simply shake your device to reset. 
+
+Ideal for when grocery shopping, dining out, or enjoying a snack at home. 
+
+This app works for the US and UK*. 
+
+*UK can be activated in the settings panel.
+
+MealMate can be found at the following URL:
+
+http://itunes.apple.com/us/app/mealmate/id425194378?mt=8

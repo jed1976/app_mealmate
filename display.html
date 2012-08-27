@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+	<head>
+		<style type="text/css" media="screen">
+			@font-face { font-family: LcdStd; src: url('LcdStd.otf'); }			
+			body { color: #222; font-family: LcdStd; margin: 0; padding: 0 5px; text-align: right; text-shadow: 0 0 5px rgba(50, 50, 50, 0.25); }			
+			#content { letter-spacing: 15px; }
+			#highlight { background: rgba(255, 255, 255, 0.05); left: 1px; border-top-left-radius: 5px; border-top-right-radius: 5px; position: absolute; right: 1px; top: 1px; z-index: 1; }
+			#system { background: #222; border-radius: 5px; color: #C7CCC2; font-size: 20px; padding: 5px; position: absolute; text-align: center; text-transform: uppercase; }
+			#servings { font-size: 20px; position: absolute; }
+			
+			@media screen and (max-width: 320px) {
+				#content { font-size: 160px; line-height: 175px; }
+				#highlight { height: 85px; }
+				#system { left: 20px; top: 30px; }
+				#servings { left: 20px; bottom: 30px; }
+			}
+			
+			@media screen and (min-width: 321px) {
+				#content { font-size: 110px; line-height: 98px; }
+				#highlight { height: 47px; }
+				#system { left: 15px; top: 15px; }
+				#servings { left: 15px; bottom: 15px; }				
+			}
+		</style>
+		
+		<meta name="viewport" content="initial-scale=1.0" />
+	</head>
+	<body>
+		<div id="highlight"></div>
+		<div id="system"></div>
+		<div id="servings"></div>		
+		<div id="content"></div>
+		
+		<script>					
+		/* <![CDATA[ */
+		var content = document.getElementById('content');
+		var system = document.getElementById('system');
+		var servings = document.getElementById('servings');		
+		
+		var setValue = function(value) {
+			content.innerHTML = value;
+		};
+		
+		var setUKSystem = function(enabled) {
+			system.innerHTML = enabled ? 'UK' : 'US';
+		};
+		
+		var setServings = function(num) {
+			servings.innerHTML = num + '&nbsp;&nbsp;Serving' + ((num > 1) ? 's' : '');
+		};
+		
+		setValue('0');
+		/* ]]> */
+		</script>
+	</body>
+</html>
