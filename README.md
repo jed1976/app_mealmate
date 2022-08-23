@@ -1,4 +1,2 @@
-MealMate
-========
-
-MealMate for iOS - WeightWatchers Points Tracker
+# MealMate for iOS
+App written in Objective-C to track calorie points (PointsPlus).
